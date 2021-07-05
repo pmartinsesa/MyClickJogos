@@ -1,0 +1,12 @@
+<div class="row m-2">
+  <div class="col-sm-6" *ngFor="let game of Games; index as i">
+    <div class="card">
+      <img src={{ImageUrl[i]}} class="card-img-top" alt={{ImageAlt[i]}}>
+      <div class="card-body background">
+        <h5 class="card-title">{{game}}</h5>
+        <p class="card-text">{{GamesDescription[i]}}</p>
+        <a href="#" class="btn btn-primary">Página do jogo</a>
+      </div>
+    </div>
+  </div>
+</div>
