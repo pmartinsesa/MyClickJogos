@@ -1,0 +1,18 @@
+div.game-table {
+  background-color:darkgreen;
+  width: 88vmin;
+  height: 88vmin;
+  display: grid;
+  grid-template-rows: repeat(21, 1fr);
+  grid-template-columns: repeat(21, 1fr);
+}
+
+.snake {
+  background-color: greenyellow;
+  border: .25vmin solid black;
+}
+
+.fruit {
+  background-color: lawngreen;
+  border: .25vmin solid black;
+}

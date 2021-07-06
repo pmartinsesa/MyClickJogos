@@ -23,9 +23,14 @@ export class CardsComponent implements OnInit {
   ];
 
   public ImageAlt : string[] = [
-    'snake-game-image',
-    'tic-tac-toe-image'
+    'tic-tac-toe-image',
+    'snake-game-image'
   ];
+
+  public routerLink: string[] = [
+    '/tictactoe',
+    '/snake'
+  ]
 
   constructor() { }
 

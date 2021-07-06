@@ -5,7 +5,7 @@
       <div class="card-body background">
         <h5 class="card-title">{{game}}</h5>
         <p class="card-text">{{GamesDescription[i]}}</p>
-        <a href="#" class="btn btn-primary">Página do jogo</a>
+        <a [routerLink]="[routerLink[i]]" class="btn btn-primary">Página do jogo</a>
       </div>
     </div>
   </div>

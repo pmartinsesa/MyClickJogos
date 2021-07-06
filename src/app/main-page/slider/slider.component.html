@@ -1,10 +1,22 @@
 <div class="d-flex justify-content-center m-2">
   <carousel class="m-2" style="width: 70%;">
-    <slide>
-      <img src="assets/images/velha.jpg" alt="first slide" style="display: block; width: 100%;">
-    </slide>
-    <slide>
-      <img src="assets/images/snake.jpg" alt="second slide" style="display: block; width: 100%;">
-    </slide>
+    <a [routerLink]="['/tictactoe']">
+      <slide>
+        <img src="assets/images/velha.jpg" alt="first slide" style="display: block; width: 100%;">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Jogo Da Velha</h3>
+          <p>Jogue com o seu melhor amigo o bom e velho jogo da velha.</p>
+        </div>
+      </slide>
+    </a>
+    <a [routerLink]="['/snake']">
+      <slide>
+        <img src="assets/images/snake.jpg" alt="second slide" style="display: block; width: 100%;">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>Jogo da Cobra</h3>
+          <p>Jogo da cobra original, recuse imitações.</p>
+        </div>
+      </slide>
+    </a>
   </carousel>
 </div>
