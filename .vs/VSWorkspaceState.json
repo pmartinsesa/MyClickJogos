@@ -3,8 +3,10 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\main-page"
+    "\\src\\app\\main-page",
+    "\\src\\app\\main-page\\cards",
+    "\\src\\app\\snake-game"
   ],
-  "SelectedNode": "\\src\\app\\main-page\\main-page.component.ts",
+  "SelectedNode": "\\src\\app\\snake-game\\snake-game.component.ts",
   "PreviewInSolutionExplorer": false
 }
