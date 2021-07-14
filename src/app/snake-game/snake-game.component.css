@@ -16,3 +16,8 @@ div.game-table {
   background-color: lawngreen;
   border: .25vmin solid black;
 }
+
+.wall {
+  background-color: black;
+  border: .25vmin solid black;
+}
